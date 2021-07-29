@@ -50,7 +50,7 @@
 #--------------------------------------------------------------------------
 #  Libraries           
 #--------------------------------------------------------------------------
-#          LIBS  = /home/boyuan/Downloads/hypre-2.10.1/lib/ -lHYPRE
+#          LIBS  = /home/someone/Downloads/hypre-2.10.1/lib/ -lHYPRE
 	LIBS  = -L/usr/local/hypre/lib/ -lHYPRE
          INCS  = -L/usr/local/hypre/include/
 #--------------------------------------------------------------------------
