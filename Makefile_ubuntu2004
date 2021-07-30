@@ -88,6 +88,9 @@ $(EXEC):	$(OBJS)
 clean:
 		/bin/rm -f *.o *.mod
 
+deepclean:	clean
+		/bin/rm -f *.f90
+
 clobber:	clean
 		/bin/rm -f *.f90 *.o nhwave
 
