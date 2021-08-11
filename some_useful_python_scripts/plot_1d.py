@@ -45,3 +45,4 @@ for i in output_series:
     plt.xlabel('x')
     plt.ylabel('eta+h')
     plt.savefig(eta_picname)
+    plt.close(fig)
